@@ -1,4 +1,4 @@
-# Closed-Loop Light Controller (Arduino UNO)
+# Closed-Loop Light Controller
 
 A small feedback-control project built using an Elegoo Uno R3. A potentiometer sets a target light level, an LED shines on a photoresistor, and a PI controller adjusts the LED so the measured light matches the target. A 16x2 LCD shows the pot input or the measured sensor voltage, and a button switches between closed-loop (PI) and open-loop control so the two can be compared directly.
 
